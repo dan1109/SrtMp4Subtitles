@@ -15,7 +15,6 @@
 - Python 3.x
 - librerie Python: `whisper`, `tqdm`, `numpy`, `librosa`, `soundfile`, `dotenv`
 - File `.env` per le variabili d'ambiente
-- Installazione dei pacchetti richiesti: `pip install -r requirements.txt`
 
 ## Installazione
 1. Clona questo repository:
@@ -28,7 +27,7 @@
     ```
 3. Installa le dipendenze:
     ```bash
-    pip install -r requirements.txt
+    pip install whisper tqdm numpy librosa soundfile python-dotenv
     ```
 
 ## Utilizzo
@@ -60,7 +59,6 @@ python generate_subtitles.py
 - Python 3.x
 - Python libraries: `whisper`, `tqdm`, `numpy`, `librosa`, `soundfile`, `dotenv`
 - `.env` file for environment variables
-- Install required packages: `pip install -r requirements.txt`
 
 ## Installation
 1. Clone this repository:
@@ -73,7 +71,7 @@ python generate_subtitles.py
     ```
 3. Install the dependencies:
     ```bash
-    pip install -r requirements.txt
+    pip install whisper tqdm numpy librosa soundfile python-dotenv
     ```
 
 ## Usage
@@ -93,10 +91,10 @@ Se utilizzi questo script nel tuo progetto, per favore cita come segue:
 
 ```
 @software{username_generate_subtitles_2024,
-  author = {Tuo Nome},
+  author = {Daniele Bufalo},
   title = {generate_subtitles.py: Generazione di sottotitoli da file audio},
   year = {2024},
-  url = {https://github.com/tuo-username/generate_subtitles},
+  url = {https://github.com/dan1109/SrtMp4Subtitles},
 }
 ```
 
@@ -104,9 +102,9 @@ Se utilizzi questo script nel tuo progetto, per favore cita come segue:
 
 ```
 @software{username_generate_subtitles_2024,
-  author = {Your Name},
+  author = {Daniele Bufalo},
   title = {generate_subtitles.py: Subtitle generation from audio files},
   year = {2024},
-  url = {https://github.com/your-username/generate_subtitles},
+  url = {https://github.com/dan1109/SrtMp4Subtitles},
 }
 ```
