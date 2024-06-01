@@ -2,24 +2,24 @@
 # generate_subtitles.py
 
 ## Descrizione
-`generate_subtitles.py` è uno script Python che permette di generare sottotitoli (.srt) da file audio utilizzando il modello di trascrizione `whisper`. Il processo include la gestione dei chunk di audio e l'aggiornamento continuo del file dei sottotitoli in tempo reale.
+`generate_subtitles.py` è uno script Python che genera sottotitoli (.srt) a partire da file audio utilizzando il modello di trascrizione `whisper`. Il processo include la gestione dei chunk audio e l'aggiornamento continuo del file dei sottotitoli in tempo reale.
 
 ## Funzionalità
-- Caricamento di file audio.
-- Suddivisione dell'audio in chunk gestibili.
+- Caricamento dei file audio.
+- Divisione dell'audio in chunk gestibili.
 - Trascrizione dei chunk audio in testo.
-- Scrittura in tempo reale dei segmenti trascritti in un file .srt.
-- Ripresa della trascrizione da dove era stata interrotta in precedenza.
+- Scrittura dei segmenti trascritti in un file .srt in tempo reale.
+- Ripresa della trascrizione dal punto in cui era stata interrotta.
 
 ## Requisiti
 - Python 3.x
-- librerie Python: `whisper`, `tqdm`, `numpy`, `librosa`, `soundfile`, `dotenv`
+- Librerie Python: `whisper`, `tqdm`, `numpy`, `librosa`, `soundfile`, `dotenv`, `PyQt5`
 - File `.env` per le variabili d'ambiente
 
 ## Installazione
 1. Clona questo repository:
     ```bash
-    git clone https://github.com/tuo-username/generate_subtitles.git
+    git clone https://github.com/your-username/generate_subtitles.git
     ```
 2. Naviga nella directory del progetto:
     ```bash
@@ -27,7 +27,7 @@
     ```
 3. Installa le dipendenze:
     ```bash
-    pip install whisper tqdm numpy librosa soundfile python-dotenv
+    pip install whisper tqdm numpy librosa soundfile python-dotenv PyQt5
     ```
 
 ## Utilizzo
@@ -57,7 +57,7 @@ python generate_subtitles.py
 
 ## Requirements
 - Python 3.x
-- Python libraries: `whisper`, `tqdm`, `numpy`, `librosa`, `soundfile`, `dotenv`
+- Python libraries: `whisper`, `tqdm`, `numpy`, `librosa`, `soundfile`, `dotenv`, `PyQt5`
 - `.env` file for environment variables
 
 ## Installation
@@ -71,7 +71,7 @@ python generate_subtitles.py
     ```
 3. Install the dependencies:
     ```bash
-    pip install whisper tqdm numpy librosa soundfile python-dotenv
+    pip install whisper tqdm numpy librosa soundfile python-dotenv PyQt5
     ```
 
 ## Usage
